@@ -1,0 +1,28 @@
+SRV Records: [
+  {
+    "name": "ac-efg4qpg-shard-00-02.wkbzue7.mongodb.net",
+    "port": 27017,
+    "priority": 0,
+    "weight": 0,
+    "type": "SRV"
+  },
+  {
+    "name": "ac-efg4qpg-shard-00-01.wkbzue7.mongodb.net",
+    "port": 27017,
+    "priority": 0,
+    "weight": 0,
+    "type": "SRV"
+  },
+  {
+    "name": "ac-efg4qpg-shard-00-00.wkbzue7.mongodb.net",
+    "port": 27017,
+    "priority": 0,
+    "weight": 0,
+    "type": "SRV"
+  }
+]
+TXT Records: [
+  [
+    "authSource=admin&replicaSet=atlas-2bvjen-shard-0"
+  ]
+]
